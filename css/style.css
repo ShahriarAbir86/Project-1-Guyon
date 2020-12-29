@@ -1,0 +1,855 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Open Sans', sans-serif;
+}
+
+a, a:hover{
+	text-decoration: none;
+}
+
+/* header-section Start */
+
+.header-section{
+	width: 100%;
+	padding: 0px;
+	background: url("../images/banner.png")  center top no-repeat;
+	background-size: cover;
+} 
+.header-section .main-menu{
+	width: 100%;
+}
+.header-section .main-menu .bg-light{
+	background: transparent !important;
+}
+.header-section .main-menu .navbar-light .navbar-nav .active>.nav-link{
+	color: #fff;
+    border: 2px solid #fff;
+    border-radius: 12px;
+}
+.header-section .navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 0px 0px 0px 10px;  
+    padding: 0px 8px;
+}
+.header-section .navbar-light .navbar-nav .nav-link:hover, .header-section .navbar-light .navbar-nav .nav-link:focus{
+	color: #fff;
+    border: 2px solid #fff;
+    border-radius: 12px;
+}
+.header-section  .banner-section{
+	width: 100%;
+	padding: 100px 0px;
+}
+.header-section .banner-section .title{
+
+}
+
+.header-section .banner-section .title h1 {
+    width: 100%;
+    font-weight: 200;
+    color: #fff;
+    font-family: 'Open Sans';
+    margin-bottom: 20px;
+}
+.header-section .banner-section .title p {
+    width: 100%;
+    color: #fff;
+    font-weight: 100;
+    font-size: 13px;
+}
+.header-section .banner-section .inner-btn{
+	width: 100%;
+	margin-top: 40px;
+
+}
+.header-section .banner-section .inner-btn .btn-primary {
+    padding: 11px 26px;
+    border-radius: 30px;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+    border: 1px solid #7954b6;
+    color: #fff;
+    background: #7954b6;
+    transition: .5s;
+}
+.header-section .banner-section .inner-btn .btn-primary:hover, .inner-btn .btn-primary:focus{
+	border: 1px solid #df4a81;
+	color: #fff;
+	background: #df4a81;
+}
+
+.feature-section{
+	width: 100%;
+	padding: 80px 0px;
+}
+.feature-section .feature-title{
+	width: 100%;
+	text-align: center;
+}
+.feature-section .feature-title h1{
+	width: 100%;
+    font-weight: 200;
+    color: #7954b6;
+    margin-bottom: 20px;
+}
+.feature-section .feature-title p{
+	width: 100%;
+    color: #000;
+    font-weight: 100;
+    font-size: 13px;
+}
+.feature-section .features .featureimg img{
+	
+	width: 100%;
+}
+.feature-section .features{
+	width: 100%;
+	padding: 80px 0px;
+}
+.feature-section .features .feature-media{
+	width: 100%;
+	margin-bottom: 30px;
+}
+
+.feature-section .features .feature-media .media  .media-body p{
+	
+}
+.feature-section .features .feature-media .media .media-body h5{
+	margin-bottom: 20px;
+	color: #7954b6;
+}
+.feature-section .features .flink a{
+	color: #df4a81;
+	text-decoration: ;
+}
+.about{
+	width: 100%;
+	padding: 80px 0px;
+	background: url("../images/About.png")center top no-repeat;
+	background-size: cover;
+}
+.about .title{
+	width: 100%;
+}
+.about .title h1{
+	color: #fff;
+	font-weight:200;
+	margin-bottom: 15px;
+}
+.about .title p{
+	color: #fff;
+	font-weight: 100;
+    font-size: 14px;
+    margin-bottom: 30px;
+    padding-bottom: 40px;
+    background: url('../images/mh.png') left bottom no-repeat;
+}
+.aboutpara{
+	width: 100%;
+	padding: 80px 0px;
+}
+.aboutpara h4{
+	color: #fff;
+	font-weight:200;
+	margin-bottom: 15px;
+	font-size: 20px;
+}
+
+.aboutpara p {
+    color: #fff;
+    font-weight: 100;
+    font-size: 12px;
+    margin-bottom: 60px;
+    line-height: 20px;
+}
+
+.video-section{
+	width: 100%;
+	padding: 80px 0px;
+	background: url("../images/video.png")center top no-repeat;
+	background-size: cover;
+}
+.video-section .des{
+	width: 100%;
+	margin: 115px 0px;
+}
+.video-section .des img{
+	display: inline-block;
+	margin-top: 10px;
+}
+.video-section .des p{
+	color: #fff;
+	display: inline-block;
+	margin-left: 5px;
+}
+.video-section .des .rtxt{
+	margin-top: 35px;
+}
+
+/* #####Screenshot Section##### */
+
+.screenshot{
+	width: 100%;
+	padding: 80px 0px;
+}
+.screenshot .title{
+	width: 100%;
+}
+.screenshot .title h1{
+	color: #7954b6;
+	font-weight:200;
+	margin-bottom: 15px;
+}
+.screenshot .title p{
+	color: #000;
+	font-weight: 100;
+    font-size: 14px;
+    margin-bottom: 30px;
+    padding-bottom: 40px;
+}
+.screenshot .sspara{
+	width: 100%;
+	padding: 35px 0px;
+}
+.screenshot .sspara .innerpara{
+	margin-bottom: 40px;
+}
+.screenshot .sspara .innerpara h4{
+	margin-bottom: 10px;
+	font-size: 18px;
+	color: #7954b6;
+
+
+}
+.screenshot .sspara .innerpara p{
+	font-size: 13px;
+}
+.screenshot img{
+    width: 100%;
+}
+
+
+/* Pricing Section */
+.pricing-section{
+	width: 100%;
+	padding: 80px 0px;
+}
+.pricing-section .title{
+	width: 100%;
+}
+.pricing-section .title h1{
+	color: #7954b6;
+	font-weight:200;
+	margin-bottom: 15px;
+}
+.pricing-section .title p{
+	color: #000;
+	font-weight: 100;
+    font-size: 14px;
+    margin-bottom: 30px;
+    padding-bottom: 40px;
+    background: url('../images/mh1.png') center bottom no-repeat;
+
+}
+.pricing-section .card{ 
+	box-shadow: 3px 3px 10px 6px #eee;
+	border: none; 
+	transition: .3s;
+	cursor: pointer;
+	margin: 10px auto;
+}
+.pricing-section .card:hover,.pricing-section .card:focus{
+	transform: scale(1.05);
+}
+.pricing-section .card .card-header {
+    background: transparent;
+    border-bottom: none;
+    color: #7954b6;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+}
+.pricing-section .card .inner-price{
+	text-align: center;
+}
+.pricing-section .card .inner-price h2 {
+    font-size: 42px;
+    font-weight: 600;
+    display: inline-block;
+}
+.pricing-section .card .inner-price p{
+	display: inline-block;
+}
+.pricing-section .card .list-group{
+	border-top: none;
+	border-bottom: none;
+	margin: 15px auto 0px;
+}
+.pricing-section .card .list-group-item {
+    border-bottom: none;
+    padding: 10px;
+    /* font-size: 14px; */
+}
+.pricing-section .card .list-group-item .fa{
+	margin-right: 5px;
+	font-weight: 600;
+}
+.pricing-section .card .inner-btn {
+    margin: 20px auto 40px;
+}
+.pricing-section .card .inner-btn .btn {
+    padding: 6px 15px;
+    border-radius: 30px;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: 1px solid #7954b6;
+    color: #fff;
+    background: #7954b6;
+    transition: .5s;
+    text-align: center;
+}
+.pricing-section .card .inner-btn .btn:hover,.pricing-section .card .inner-btn .btn:focus{
+	border: 1px solid #df4a81;
+	color: #fff;
+	background: #df4a81;
+}
+
+
+
+
+
+/* Clients Section */
+.clients-section{
+	width: 100%;
+	padding: 80px 0px;
+}
+.clients-section .title{
+	width: 100%;
+}
+.clients-section .title h1{
+	color: #7954b6;
+	font-weight:200;
+	margin-bottom: 15px;
+}
+.clients-section .title p{
+	color: #000;
+	font-weight: 100;
+    font-size: 14px;
+    margin-bottom: 30px;
+    padding-bottom: 40px;
+    background: url('../images/mh1.png') center bottom no-repeat;
+
+}
+.clients-section .carousel-item{
+        width: 100%;
+        margin: 0px auto;
+}
+.clients-section .card{
+    border: 1px solid #eee;
+    padding: 10px 20px;
+    margin: 0px auto;
+}
+.clients-section .card .card-header {
+    margin: 10px 30px;
+    border-bottom: 1px solid #eee;
+    background: transparent;
+}
+
+
+.clients-section .card .card-header img {
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+}
+.clients-section .card .card-header .inner-name {
+    display: inline-block;
+    /* padding: 0px; */
+    margin-left: 10px;
+    vertical-align: middle;
+}
+.clients-section .card .card-header h5 {
+    color: #7954b6;
+    font-size: 18px;
+    margin-top: 0px;
+    font-weight: 600;
+}
+.clients-section .card .card-header h6{
+    color: #9a9a9a;
+}
+.clients-section .card .card-header a{
+    text-align: right;
+}
+.clients-section .card .card-header .btn {
+    color: #7954b6;
+    border: 1px solid #7954b6;
+    border-radius: 10px;
+    padding: 4px 8px;
+    margin-top: 15px;
+    margin-left: 200px;
+}
+.clients-section .card .card-body span{
+    color: #9a9a9a;
+}
+.clients-section .card .card-text p{
+
+}
+.clients-section .card h5 {
+    font-size: 16px;
+}
+.clients-section .card .card-title{
+
+}
+
+
+.clients-section2{
+	width: 100%;
+	padding: 80px 0px 0px;
+}
+.clients-section2 .title{
+	width: 100%;
+}
+.clients-section2 .title h1{
+	color: #7954b6;
+	font-weight:200;
+	margin-bottom: 15px;
+}
+.clients-section2 .title p{
+	color: #000;
+	font-weight: 100;
+    font-size: 14px;
+    margin-bottom: 30px;
+    padding-bottom: 40px;
+    background: url('../images/mh1.png') center bottom no-repeat;
+
+}
+
+.clients-section2 .cardwithimg{
+	width: 100%;
+	padding: 80px 0px;
+}
+
+.clients-section2 .cardwithimg .card .card-body h4 {
+    font-size: 18px;
+    color: #7954b6;
+    font-weight: 500;
+}
+.clients-section2 .cardwithimg .card{
+	width: 100%;
+	margin: 0px 10px;
+	transition: .3s;
+	margin: 10px auto;
+}
+.clients-section2 .cardwithimg .card:hover,.clients-section2 .cardwithimg .card:focus{
+	transform: scale(1.03, 1.03)
+}
+
+
+.clients-section2 .cardwithimg .card .card-body h6 {
+    font-size: 14px;
+    padding-bottom: 10px;
+    color: #7954b6;
+}
+
+
+.clients-section2 .cardwithimg .card p {
+    font-size: 13px;
+    line-height: 20px;
+}
+.clients-section2 .cardwithimg .card .btn {
+    color: #7954b6;
+    background-color: transparent;
+    border-radius: 25px;
+    border: 1.5px solid #7954b6;
+    padding: 2px 20px;
+    font-size: 13px;
+    margin-bottom: 15px;
+    transition: .5s;
+}
+.clients-section2 .cardwithimg .card .btn:hover, .clients-section2 .cardwithimg .card .btn:focus{
+	color: #df4a81;
+	border: 1.5px solid #df4a81;
+
+}
+
+/* Download Section */
+.download{
+	width: 100%;
+	padding: 0px 0px 80px;
+	background: url("../images/download.png")center top no-repeat;
+	background-size: cover;
+}
+
+.download .title{
+	width: 100%;
+	padding: 80px 0px;
+}
+.download .title h1{
+	color: #fff;
+	font-weight:200;
+	margin-bottom: 15px;
+}
+.download .title p{
+	color: #fff;
+	font-weight: 100;
+    font-size: 14px;
+    margin-bottom: 30px;
+    padding-bottom: 40px;
+    background: url('../images/mh1.png') center bottom no-repeat;
+
+}
+.download .logo{
+	width: 100%;
+	text-align: center;
+}
+
+.download .logo .btn {
+    color: #fff;
+    background: transparent;
+    border-radius: 20px;
+    border: 1px solid #fff;
+    padding: 4px 19px;
+    transition: .3s;
+    margin-bottom: 10px;
+}
+.download .logo .fa {
+    font-size: 25px;
+    padding: 0px 5px;
+}
+.download .logo .btn:hover,.download .logo .btn:focus{
+	color: #eee;
+    border: 1px solid #eee;
+
+}
+.download .logo .btn:hover,.download .logo .btn:focus{
+	    transform: scale(1.1);
+
+}
+
+
+
+/* Contact Section */
+.contact{
+	width: 100%;
+    background: #f2f2f6;
+}
+.contact .title {
+    width: 100%;
+    padding: 80px 0px 0px;
+}
+.contact .title h1{
+	color: #7954b6;
+	font-weight:300;
+	margin-bottom: 15px;
+}
+.contact .title p{
+	color: #7954b6;
+	font-weight: 200;
+    font-size: 14px;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+}
+
+
+.contact .contact-media{
+	margin-left: 150px;
+}
+.contact .contact-media .media img {
+    margin-left: 30px;
+}
+.contact .contact-media .media{
+	margin-bottom: 15px;
+}
+.contact .contact-media .media .media-body h5{
+	font-size: 12px;
+	line-height: 20px;
+	color: #7954b6;
+}
+.contact .social-icons{
+	margin: 0px;
+	padding: 50px 0px;
+	text-align: center;
+	margin-left: 130px;
+}
+.contact .social-icons li{
+	list-style: none;
+	display: inline-block;
+}
+.contact .social-icons li a{
+	font-size: 26px;
+	color: #9c9c9c;
+	margin: 0px 8px 10px;
+	transition: all 1.5s;
+}
+
+.contact .social-icons li a .fa:hover,.contact .social-icons li a .fa:focus {
+	color: #7954b6;
+	transform: scale(1.5);
+}
+
+.contact .form-section{
+	padding: 140px 0px 50px;
+	background-color: #fff;
+}
+.contact .form-section .main-form {
+    padding: 0px 50px;
+}
+.contact .form-section .form-group .form-control{
+	background-color: transparent;
+	border: none;
+	border-bottom: 1px solid #e3e3e3;
+	border-radius: 0px;
+	margin-bottom: 10px;
+}
+.contact .form-section .form-group .btn{
+	padding: 4px 35px;
+    border-radius: 30px;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+    border: 1px solid #7954b6;
+    color: #fff;
+    background: #7954b6;
+    transition: .5s;
+}
+.contact .form-section .form-group .btn:hover,.contact .form-section .form-group .btn:focus{
+	border: 1px solid #df4a81;
+	color: #fff;
+	background: #df4a81;
+}
+
+
+
+
+
+/* ####### Responsive design ######### */
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+  /* ******************* */
+ .header-section .banner-section .title {
+    margin-left: 120px;
+}
+
+.header-section .banner-section .title h1 {
+    font-size: 20px;
+}
+.header-section .banner-section .title p {
+    font-size: 11px;
+    line-height: 15px;
+}
+.header-section .banner-section .inner-btn .btn-primary {
+    padding: 11px 20px;
+    font-size: 11px;
+}
+.feature-section .feature-title  h1 {
+    font-size: 20px;
+}
+.feature-section .feature-title p {
+    font-size: 11px;
+    line-height: 15px;
+}
+.title h1 {
+    font-size: 20px;
+}
+.title p {
+    font-size: 11px;
+    line-height: 18px;
+}
+.feature-section {
+    width: 100%;
+    padding: 40px 0px;
+}
+.feature-section .features {
+    width: 100%;
+    padding: 40px 0px;
+}
+.feature-section .features .featureimg img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.feature-section .features .feature-media .media .media-body h5 {
+    margin-bottom: 9px;
+    font-size: 15px;
+}
+.feature-section .features .feature-media .media .media-body p {
+    font-size: 10px;
+    line-height: 16px;
+}
+.aboutpara {
+    width: 100%;
+    padding: 40px 0px;
+}
+.aboutpara h4 {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+.aboutpara p {
+    font-size: 10px;
+    margin-bottom: 40px;
+    line-height: 15px;
+}
+.screenshot .title p {
+    margin-bottom: 0px !important;
+}
+.screenshot .sspara {
+    width: 100%;
+    padding: 0px;
+}
+.screenshot .sspara .innerpara h4 {
+    font-size: 16px;
+}
+.screenshot .sspara .innerpara p {
+    font-size: 10px;
+    line-height: 15px;
+}
+.screenshot {
+    padding: 60px 0px 0px;
+}
+.clients-section {
+    width: 100%;
+    padding: 60px 0px 0px;
+}
+.contact .contact-media {
+    margin: 0px auto;
+}
+.contact .social-icons {
+    margin: 0px auto;
+    padding: 50px 0px;
+    text-align: center;
+}
+.contact .form-section {
+    padding: 80px 0px 50px;
+    background-color: #fff;
+}
+  /* ******************* */
+  
+}
+
+
+
+
+
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+  /* ******************* */
+.header-section .banner-section .title h1 {
+    font-size: 30px;
+}
+.header-section .banner-section .title {
+    margin: 0px 0px 0px 200px;
+}
+.header-section .banner-section .title p {
+    font-size: 10px;
+    line-height: 15px;
+}
+.header-section .banner-section .inner-btn .btn-primary {
+    padding: 11px 20px;
+    font-size: 11px;
+}
+.feature-section .feature-title  h1 {
+    font-size: 30px;
+}
+.feature-section .feature-title p {
+    font-size: 10px;
+    line-height: 15px;
+}
+.title h1 {
+    font-size: 30px;
+}
+.title p {
+    font-size: 10px;
+    line-height: 15px;
+}
+.contact .social-icons {
+    text-align: center;
+    margin: 0px;
+}
+.contact .contact-media {
+    margin-left: 110px;
+}
+
+  /* ******************* */
+  
+}
+
+
+
+
+
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* ******************* */
+.header-section .banner-section .title h1 {
+    font-size: 30px;
+}
+.header-section .banner-section  .title p {
+    font-size: 10px;
+    line-height: 15px;
+}
+.header-section .banner-section .inner-btn .btn-primary {
+    padding: 11px 20px;
+    font-size: 11px;
+}
+.feature-section .feature-title  h1 {
+    font-size: 30px;
+}
+.feature-section .feature-title p {
+    font-size: 10px;
+    line-height: 15px;
+}
+.title h1 {
+    font-size: 30px;
+}
+.title p {
+    font-size: 10px;
+    line-height: 15px;
+}
+.pricing-section {
+    padding: 0px;
+}
+.screenshot .title p {
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+
+
+  /* ******************* */
+  
+}
